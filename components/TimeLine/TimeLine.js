@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-
+import Image from 'next/image';
 import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from './TimeLineStyles';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents/index';
 import { TimeLineData } from '../../constants/constants';
@@ -43,10 +43,12 @@ const Timeline = () => {
   return (
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
+      <Image src="/myImage.jpg" alt="me" width="400" height="400" />
+      <br/>
       <SectionText>
-        The purpose of my portfolio website is to showcase my work and demonstrate my skills and abilities to potential clients and employers. It serves as a centralized location for people to learn more about my professional background and experience, and provides a platform for me to share my creative ideas and projects with a wider audience. Through this website, I hope to establish a professional online presence and establish myself as an expert in my field, while also building and growing my personal brand. My ultimate goal is to use this website to help me land the types of jobs and clients that align with my professional goals and passions.
+        I am experienced in creating user-centric products for both desktop and mobile platforms. Talented in working in C++, JavaScript, ReactJS and Angular. Proficient Front-End Developer effective at developing strong websites that achieve customer objectives. Well-versed in using CSS, Java, SQL as well as other resources to accomplish design requirements. Have good communication skill, written and verbal in English, Hindi, and Gujarati. Great customer service and communication.
       </SectionText>
-      <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
+      {/* <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (
             <CarouselMobileScrollNode
@@ -109,7 +111,7 @@ const Timeline = () => {
             </CarouselButton>
           );
         })}
-      </CarouselButtons>
+      </CarouselButtons> */}
       <SectionDivider />
     </Section>
   );

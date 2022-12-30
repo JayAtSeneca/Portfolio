@@ -14,7 +14,7 @@ const Hero = (props) => (
           My Personal Portfolio
         </SectionTitle>
         <SectionText>
-          The purpose of my portfolio website is to showcase my work and demonstrate my skills and abilities to potential clients and employers. It serves as a centralized location for people to learn more about my professional background and experience, and provides a platform for me to share my creative ideas and projects with a wider audience. Through this website, I hope to establish a professional online presence and establish myself as an expert in my field, while also building and growing my personal brand. My ultimate goal is to use this website to help me land the types of jobs and clients that align with my professional goals and passions.
+          Hi there! my name is Jay Chaudhari. I am a recent graduate with a diploma in computer programming, I am excited to begin my career as a software developer. I have a strong foundation in software design and development, with experience in languages such as Java and Python. I am a quick learner and highly motivated to continue learning and growing in this field. In my free time, I enjoy staying up to date with the latest technologies and participating in hackathons and coding competitions. I am looking for opportunities to join a team of skilled developers where I can contribute and learn from my colleagues.
         </SectionText>
         <Link href="https://github.com/JayAtSeneca" target="_blank" ><Button>Learn more</Button></Link>
       </LeftSection>
